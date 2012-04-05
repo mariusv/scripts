@@ -29,3 +29,8 @@ Delete all queued messages that contain the word "xyz" in the e-mail address:
 duplicity-backup.pl
 -------------------
 Backing up your server(or just one folder) with duplicity. Warning, this is for server to server via SSH!!
+
+
+qmailclean.sh
+-------------------
+Cleaning the qmail queue clean and simple
