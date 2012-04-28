@@ -24,7 +24,7 @@
 ##    REPAIR OR CORRECTION.
 ##    
 ##############################################################################
-# Written by: Marius Voila <marius.voila@gmail.com>
+# Written by: Marius Voila <myself@mariusv.com>
 #
 # Purpose:  This program will extract the necessary portions from a full 
 #           database mysqldump file required to restore a single table.
@@ -34,6 +34,7 @@
 # Changelog:
 #  2012-04-28  v2.0  Marius Voila
 #   - bug fixes
+#   - small updates
 #  2007-05-23  v1.0  Marius Voila
 #   - initial release
 #
@@ -49,7 +50,7 @@ my %conf = (
     "programName"          => $0,                                ## The name of this program
     "version"              => '1.0',                             ## The version of this program
     "authorName"           => 'Marius Voila',                    ## Author's Name
-    "authorEmail"          => 'marius.voila@gmail.com',          ## Author's Email Address
+    "authorEmail"          => 'myself@mariusv.com',              ## Author's Email Address
     "debug"                => 0,                                 ## Default debug level
     "mode"                 => '',
     
