@@ -32,7 +32,7 @@
 # Creation Date: 2007-05-23
 #
 # Changelog:
-#  2012-04-28  v2.0  Marius Voila
+#  2012-04-28  v1.0.1  Marius Voila
 #   - bug fixes
 #   - small updates
 #  2007-05-23  v1.0  Marius Voila
@@ -48,7 +48,7 @@ use strict;
 ## Global Variable(s)
 my %conf = (
     "programName"          => $0,                                ## The name of this program
-    "version"              => '1.0',                             ## The version of this program
+    "version"              => '1.0.1',                             ## The version of this program
     "authorName"           => 'Marius Voila',                    ## Author's Name
     "authorEmail"          => 'myself@mariusv.com',              ## Author's Email Address
     "debug"                => 0,                                 ## Default debug level
