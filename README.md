@@ -66,3 +66,13 @@ Usually you will want these things changed before restoring a table, so the defa
 
 -h                   Display this help message
 
+
+exportcp.sh will extract all the contacts and email addresses from any reseller from cpanel
+-------------------------------------------------------------------------------------------
+
+Usage:
+
+chmod +x exportcp.sh
+
+./exportcp.sh > exportlist.txt
+
