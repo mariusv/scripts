@@ -1,10 +1,10 @@
-#!/bin/bash
+!/bin/bash
 
 OWNER=$@
-KONTA=`ls -1A /var/cpanel/users/`
+CONTACT=`ls -1A /var/cpanel/users/`
 
 count=1
-for x in `echo -n "$KONTA"`;do
+for x in `echo -n "$CONTACT"`;do
   wiersz=`grep -i ^dns /var/cpanel/users/"$x" |cut -d= -f2`
   DOMAIN[$count]=$wiersz
   count=$[$count+1]
